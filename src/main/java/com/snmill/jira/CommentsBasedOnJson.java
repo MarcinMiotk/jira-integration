@@ -13,11 +13,11 @@ import java.util.List;
 /**
  *
  */
-public class CommentsBasedOnJson implements Comments {
+class CommentsBasedOnJson implements Comments {
 
     final String json;
 
-    public CommentsBasedOnJson(String json) {
+    protected CommentsBasedOnJson(String json) {
         this.json = json;
     }
 

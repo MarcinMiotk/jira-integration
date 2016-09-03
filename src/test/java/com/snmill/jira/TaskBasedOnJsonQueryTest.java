@@ -37,68 +37,68 @@ public class TaskBasedOnJsonQueryTest {
 
     @Test
     public void countReturns19() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals(19, task.count());
     }
 
     @Test
     public void listHas19Issues() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals(19, task.issues().size());
     }
 
     @Test
     public void firstIssueHasId() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals(188461, task.issues().get(0).getId());
     }
 
     @Test
     public void firstIssueHasKey() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals("SUPTMPLHER-635", task.issues().get(0).getKey());
     }
 
     @Test
     public void firstIssueHasReporterAndAssignee() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals("mapo", task.issues().get(0).getReporter());
         assertEquals("mami", task.issues().get(0).getAssignee());
     }
 
     @Test
     public void firstIssueHasOpenStatus() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals("Open", task.issues().get(0).getStatus());
     }
 
     @Test
     public void firstIssueHasSummary() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals("Jakiś tytuł nr 17", task.issues().get(0).getSummary());
     }
 
     @Test
     public void firstIssueHasCreated() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals("2016-08-30 13:59:25", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(task.issues().get(0).getCreated()));
     }
 
     @Test
     public void firstIssueHasDueTo() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals("2016-09-25", new SimpleDateFormat("yyyy-MM-dd").format(task.issues().get(0).getDueDate()));
     }
 
     @Test
     public void firstIssueHasPriority() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         assertEquals(5, task.issues().get(0).getPriority());
     }
 
     @Test
     public void printAll() throws IOException {
-        Tasks task = new TaskBasedOnJsonQuery(sampleJson());
+        Issues task = new IssuesBasedOnJsonQuery(sampleJson());
         for (Issue issue : task.issues()) {
             out.println(IssuePrinter.toString(issue));
         }

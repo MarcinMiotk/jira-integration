@@ -5,7 +5,7 @@ import java.util.List;
 /**
  *
  */
-public interface Comments {
+interface Comments {
 
     int size(String issueKey);
 

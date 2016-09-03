@@ -5,7 +5,7 @@ import java.util.List;
 /**
  *
  */
-public interface Tasks {
+interface Issues {
 
     int count();
 

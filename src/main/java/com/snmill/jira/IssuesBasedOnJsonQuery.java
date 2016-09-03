@@ -13,11 +13,11 @@ import java.util.List;
 /**
  *
  */
-public class TaskBasedOnJsonQuery implements Tasks {
+class IssuesBasedOnJsonQuery implements Issues {
 
     private final String json;
 
-    public TaskBasedOnJsonQuery(String json) {
+    protected IssuesBasedOnJsonQuery(String json) {
         this.json = json;
     }
 

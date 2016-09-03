@@ -83,7 +83,7 @@ public class TasksTest {
         builder.queryParam("maxResults", "200");
         HttpEntity request = new HttpEntity<>(authorizationHeaders);
         ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
-        Tasks task = new TaskBasedOnJsonQuery(response.getBody());
+        Issues task = new IssuesBasedOnJsonQuery(response.getBody());
         for (Issue issue : task.issues()) {
             out.println(IssuePrinter.toString(issue));
         }

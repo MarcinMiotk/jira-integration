@@ -3,7 +3,10 @@ package com.snmill.jira;
 /**
  *
  */
-public class IssuePrinter {
+class IssuePrinter {
+
+    protected IssuePrinter() {
+    }
 
     static String toString(Issue issue) {
         StringBuilder sb = new StringBuilder();
@@ -13,7 +16,7 @@ public class IssuePrinter {
         sb.append("|");
         sb.append(issue.getReporter());
         sb.append("|");
-        sb.append(issue.getAssignee());     
+        sb.append(issue.getAssignee());
         sb.append("|");
         sb.append(issue.getKey());
         sb.append("|");
