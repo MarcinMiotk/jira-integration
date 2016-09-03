@@ -3,10 +3,8 @@ package com.snmill.jira;
 /**
  *
  */
-class Assigning {
+interface Assigning {
 
-    void assign(String key, String assigneee) {
-
-    }
+    void assign(String issueKey, String assigneee);
 
 }
