@@ -75,7 +75,7 @@ public class TaskBasedOnJsonQueryTest {
     @Test
     public void firstIssueHasSummary() throws IOException {
         Tasks task = new TaskBasedOnJsonQuery(sampleJson());
-        assertEquals("PBI4173 - ESR błędy 500", task.issues().get(0).getSummary());
+        assertEquals("Jakiś tytuł nr 17", task.issues().get(0).getSummary());
     }
 
     @Test

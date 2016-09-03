@@ -9,7 +9,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/188461",
             "key": "SUPTMPLHER-635",
             "fields": {
-                "summary": "PBI4173 - ESR błędy 500",
+                "summary": "Jakiś tytuł nr 17",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mapo",
                     "name": "mapo",
@@ -65,7 +65,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/178243",
             "key": "SUPTMPLHER-489",
             "fields": {
-                "summary": "INC000002191431 - AdapterESR2 - FaxAccConnector app not responding (value: 1), ESR",
+                "summary": "Jakiś tytuł nr 16",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=pioz",
                     "name": "pioz",
@@ -121,7 +121,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/183850",
             "key": "SUPPLKVMS-170",
             "fields": {
-                "summary": "CLONE - Humpback powinien odpowiadać 503 jeśli wystąpi wyjątek",
+                "summary": "Jakiś tytuł nr 15",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=grwz",
                     "name": "grwz",
@@ -177,7 +177,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/167725",
             "key": "SUPPLKVMS-61",
             "fields": {
-                "summary": "[opt] usuwanie ze schedulera zadań, które dotyczą zakończonych sesji",
+                "summary": "Jakiś tytuł nr 14",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
                     "name": "mami",
@@ -289,7 +289,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/164533",
             "key": "SUPORMRF-3",
             "fields": {
-                "summary": "Powolne działanie broker'ów przy niedostępności serwera w klastrze, task roboczy: EXSORAMRF-22",
+                "summary": "Jakiś tytuł nr 12",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=tocl",
                     "name": "tocl",
@@ -345,18 +345,18 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/162453",
             "key": "SUPCYPPO-1",
             "fields": {
-                "summary": "CLONE - USSD - Dialogic dialog identifiers capacity reached",
+                "summary": "Jakiś tytuł nr 11",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=arsi",
                     "name": "arsi",
-                    "emailAddress": "artur.siebor@snmill.com",
+                    "emailAddress": "artur.adffd@snmill.com",
                     "avatarUrls": {
                         "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
                         "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
                         "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
                         "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
                     },
-                    "displayName": "Artur Siębor",
+                    "displayName": "Artur Sroasdf",
                     "active": true
                 },
                 "status": {
@@ -401,18 +401,18 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/181292",
             "key": "SOR-444",
             "fields": {
-                "summary": "ATP2 - wiszace wiadomosci",
+                "summary": "Jakiś tytuł nr 10",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=arsi",
                     "name": "arsi",
-                    "emailAddress": "artur.siebor@snmill.com",
+                    "emailAddress": "artur.adffd@snmill.com",
                     "avatarUrls": {
                         "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
                         "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
                         "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
                         "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
                     },
-                    "displayName": "Artur Siębor",
+                    "displayName": "Artur Sroasdf",
                     "active": true
                 },
                 "status": {
@@ -569,7 +569,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/186081",
             "key": "SI-3385",
             "fields": {
-                "summary": "Projekt w gitlab",
+                "summary": "Jakiś tytuł nr 9",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
                     "name": "mami",
@@ -625,7 +625,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/165712",
             "key": "NOVAU-27",
             "fields": {
-                "summary": "[opt] Naprawa oraz optymalizacja vxml-interpreter-service",
+                "summary": "Jakiś tytuł nr 8",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
                     "name": "mami",
@@ -681,7 +681,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/168040",
             "key": "NOVAU-26",
             "fields": {
-                "summary": "[opt] Continuous Deployment w Humpack",
+                "summary": "Jakiś tytuł nr 7",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
                     "name": "mami",
@@ -737,7 +737,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/169656",
             "key": "HUMP-6",
             "fields": {
-                "summary": "[opt] Zrobić priorytetyzację pakietów SIP, które są obsługiwane przez pulę połączęń",
+                "summary": "Jakiś tytuł nr 6",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
                     "name": "mami",
@@ -793,7 +793,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/169649",
             "key": "HUMP-5",
             "fields": {
-                "summary": "[opt] Błędy parsowania SDP w signal serwerze przy ruchu 250 newcalls / sec",
+                "summary": "Jakiś tytuł nr 5",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
                     "name": "mami",
@@ -849,7 +849,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/169647",
             "key": "HUMP-4",
             "fields": {
-                "summary": "[opt] Błędy strumieni w media serwerze przy ruchu 250 newcalls / sec",
+                "summary": "Jakiś tytuł nr 4",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
                     "name": "mami",
@@ -905,7 +905,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/167546",
             "key": "HUMP-3",
             "fields": {
-                "summary": "[opt] Akcept na prace naprawcze dot. synchronicznych wywołań wykonywanych przez VXML-INTERPRETER",
+                "summary": "Jakiś tytuł nr 3",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
                     "name": "mami",
@@ -961,7 +961,7 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/182435",
             "key": "EXBROAD-286",
             "fields": {
-                "summary": "[HB] Urwane nagranie - tym razem nie jest to wykrywanie braku ludzkiej mowy",
+                "summary": "Jakiś tytuł nr 2",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=grwz",
                     "name": "grwz",
@@ -1017,18 +1017,18 @@
             "self": "https://jira.snmill.com/jira/rest/api/2/issue/186099",
             "key": "CROVMA-2",
             "fields": {
-                "summary": "Analiza wyskalowania MWI na 2,5 M użytkowników",
+                "summary": "Jakiś tytuł nr 1",
                 "reporter": {
                     "self": "https://jira.snmill.com/jira/rest/api/2/user?username=luok",
                     "name": "luok",
-                    "emailAddress": "lukasz.okarmus@snmill.com",
+                    "emailAddress": "lu.smo@snmill.com",
                     "avatarUrls": {
                         "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
                         "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
                         "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
                         "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
                     },
-                    "displayName": "Łukasz Okarmus",
+                    "displayName": "Łukasz Abczde",
                     "active": true
                 },
                 "status": {
