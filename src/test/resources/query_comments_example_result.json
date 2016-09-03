@@ -1,0 +1,102 @@
+{
+    "startAt": 0,
+    "maxResults": 3,
+    "total": 3,
+    "comments": [{
+            "self": "https://jira.ailleron.com/jira/rest/api/2/issue/189152/comment/439624",
+            "id": "439624",
+            "author": {
+                "self": "https://jira.ailleron.com/jira/rest/api/2/user?username=mami",
+                "name": "mami",
+                "emailAddress": "marcin.miotk@ailleron.com",
+                "avatarUrls": {
+                    "16x16": "https://jira.ailleron.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                    "24x24": "https://jira.ailleron.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                    "32x32": "https://jira.ailleron.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                    "48x48": "https://jira.ailleron.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                },
+                "displayName": "Marcin Miotk",
+                "active": true
+            },
+            "body": "This is a comment regarding the quality of the response.",
+            "updateAuthor": {
+                "self": "https://jira.ailleron.com/jira/rest/api/2/user?username=mami",
+                "name": "mami",
+                "emailAddress": "marcin.miotk@ailleron.com",
+                "avatarUrls": {
+                    "16x16": "https://jira.ailleron.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                    "24x24": "https://jira.ailleron.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                    "32x32": "https://jira.ailleron.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                    "48x48": "https://jira.ailleron.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                },
+                "displayName": "Marcin Miotk",
+                "active": true
+            },
+            "created": "2016-09-03T07:45:07.862+0200",
+            "updated": "2016-09-03T07:45:07.862+0200"
+        }, {
+            "self": "https://jira.ailleron.com/jira/rest/api/2/issue/189152/comment/439625",
+            "id": "439625",
+            "author": {
+                "self": "https://jira.ailleron.com/jira/rest/api/2/user?username=mami",
+                "name": "mami",
+                "emailAddress": "marcin.miotk@ailleron.com",
+                "avatarUrls": {
+                    "16x16": "https://jira.ailleron.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                    "24x24": "https://jira.ailleron.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                    "32x32": "https://jira.ailleron.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                    "48x48": "https://jira.ailleron.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                },
+                "displayName": "Marcin Miotk",
+                "active": true
+            },
+            "body": "This is a comment regarding the quality of the response.",
+            "updateAuthor": {
+                "self": "https://jira.ailleron.com/jira/rest/api/2/user?username=mami",
+                "name": "mami",
+                "emailAddress": "marcin.miotk@ailleron.com",
+                "avatarUrls": {
+                    "16x16": "https://jira.ailleron.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                    "24x24": "https://jira.ailleron.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                    "32x32": "https://jira.ailleron.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                    "48x48": "https://jira.ailleron.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                },
+                "displayName": "Marcin Miotk",
+                "active": true
+            },
+            "created": "2016-09-03T07:46:40.908+0200",
+            "updated": "2016-09-03T07:46:40.908+0200"
+        }, {
+            "self": "https://jira.ailleron.com/jira/rest/api/2/issue/189152/comment/439626",
+            "id": "439626",
+            "author": {
+                "self": "https://jira.ailleron.com/jira/rest/api/2/user?username=mami",
+                "name": "mami",
+                "emailAddress": "marcin.miotk@ailleron.com",
+                "avatarUrls": {
+                    "16x16": "https://jira.ailleron.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                    "24x24": "https://jira.ailleron.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                    "32x32": "https://jira.ailleron.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                    "48x48": "https://jira.ailleron.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                },
+                "displayName": "Marcin Miotk",
+                "active": true
+            },
+            "body": "This is *very important* message. Prawdopodobna data rozpoczęcia prac to {color:red}2016-10-24{color}.\r\n\r\nh1. Test",
+            "updateAuthor": {
+                "self": "https://jira.ailleron.com/jira/rest/api/2/user?username=mami",
+                "name": "mami",
+                "emailAddress": "marcin.miotk@ailleron.com",
+                "avatarUrls": {
+                    "16x16": "https://jira.ailleron.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                    "24x24": "https://jira.ailleron.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                    "32x32": "https://jira.ailleron.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                    "48x48": "https://jira.ailleron.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                },
+                "displayName": "Marcin Miotk",
+                "active": true
+            },
+            "created": "2016-09-03T08:04:50.558+0200",
+            "updated": "2016-09-03T08:04:50.558+0200"
+        }]
+}

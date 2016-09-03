@@ -1,9 +1,11 @@
 package com.snmill.jira;
 
-import static java.lang.System.out;
 import java.nio.charset.Charset;
 import java.util.Base64;
+import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.springframework.http.HttpEntity;
@@ -17,9 +19,9 @@ import org.springframework.web.util.UriComponentsBuilder;
 /**
  *
  */
-public class CommentsTest {
+public class AssigningTest {
 
-    public CommentsTest() {
+    public AssigningTest() {
     }
 
     HttpHeaders authorizationHeaders;
@@ -35,40 +37,19 @@ public class CommentsTest {
     }
 
     @Test
-    public void canListComments() {
-        RestTemplate api = new RestTemplate();
-        String issueKey = "HUMP-9";
-        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(jiraApiUrlPrefix + "issue/" + issueKey + "/comment");
-        builder.queryParam("orderBy", "-updated");
-        builder.queryParam("maxResults", "200");
-
-        HttpEntity request = new HttpEntity<>(authorizationHeaders);
-        ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
-
-        out.println(response.getBody());
-
-//        Tasks task = new TaskBasedOnJsonQuery(response.getBody());
-//        for (Issue issue : task.issues()) {
-//            out.println(IssuePrinter.toString(issue));
-//        }
-//        out.println("SIZE=" + task.count());
-    }
-
-    @Test
     public void canAddComment() {
         RestTemplate api = new RestTemplate();
         String issueKey = "HUMP-9";
-        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(jiraApiUrlPrefix + "issue/" + issueKey + "/comment");
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(jiraApiUrlPrefix + "issue/" + issueKey /*+ "/editmeta"*/);
 
-        String jsonBody = "{\"body\": \"This is a comment regarding the quality of the response.\"}";
+        String jsonBody = "{\"fields\": { \"assignee\": { \"name\":\"mami\" }}}";
 
         HttpHeaders headers = new HttpHeaders();
         headers.set("Authorization", authorizationHeader);
         headers.set("Content-Type", "application/json");
 
         HttpEntity<String> request = new HttpEntity<>(jsonBody, headers);
-        ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.POST, request, String.class);
-        assertEquals(HttpStatus.CREATED.value(), response.getStatusCode().value());
+        api.put(builder.build().toUri(), request);
     }
 
     String authHeader(String username, String password) {
