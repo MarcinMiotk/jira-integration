@@ -64,17 +64,30 @@ public class TasksTest {
     }
 
     @Test
-    public void testSomeMethod() {
+    public void queryOnlySpecifiedFields() {
         RestTemplate api = new RestTemplate();
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(jiraApiUrlPrefix + "search");
         builder.queryParam("jql", jqlForTeamIssues());
         builder.queryParam("fields", "id,key,summary,reporter,assignee,created,duedate,priority,status");
         HttpEntity request = new HttpEntity<>(authorizationHeaders);
-
         ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
-        out.println(response.toString());
-        out.println(response.getStatusCodeValue());
-        out.println(response.getBody());
+        assertEquals(HttpStatus.OK.value(), response.getStatusCode().value());
+    }
+
+    @Test
+    public void jsonCanBeConverted() {
+        RestTemplate api = new RestTemplate();
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(jiraApiUrlPrefix + "search");
+        builder.queryParam("jql", jqlForTeamIssues());
+        builder.queryParam("fields", "id,key,summary,reporter,assignee,created,duedate,priority,status");
+        builder.queryParam("maxResults", "200");
+        HttpEntity request = new HttpEntity<>(authorizationHeaders);
+        ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
+        Tasks task = new TaskBasedOnJsonQuery(response.getBody());
+        for (Issue issue : task.issues()) {
+            out.println(IssuePrinter.toString(issue));
+        }
+        out.println("SIZE=" + task.count());
     }
 
     HttpHeaders createAuthorizationHeaders(String username, String password) {
@@ -89,7 +102,7 @@ public class TasksTest {
     }
 
     String jqlForTeamIssues() {
-        String jql = "assignee=mami AND (status='OPEN' OR status='CLIENT VERIFICATION' OR status='REOPENED' OR status='IN PROGRESS')";
+        String jql = "(assignee=mami OR assignee=ankr OR assignee=mapo OR assignee=kasw OR assignee=mamk) AND (status='OPEN' OR status='CLIENT VERIFICATION' OR status='REOPENED' OR status='IN PROGRESS') order by created";
         return jql;
     }
 

@@ -100,26 +100,7 @@ public class TaskBasedOnJsonQueryTest {
     public void printAll() throws IOException {
         Tasks task = new TaskBasedOnJsonQuery(sampleJson());
         for (Issue issue : task.issues()) {
-            StringBuilder sb = new StringBuilder();
-            sb.append(issue.getId());
-            sb.append("|");
-            sb.append(issue.getKey());
-            sb.append("|");
-            sb.append(issue.getPriority());
-            sb.append("|");
-            sb.append(issue.getStatus());
-            sb.append("|");
-            sb.append(issue.getReporter());
-            sb.append("|");
-            sb.append(issue.getAssignee());
-            sb.append("|");
-            sb.append(issue.getDueDate());
-            sb.append("|");
-            sb.append(issue.getCreated());
-            sb.append("|");
-            sb.append(issue.getSummary());
-            sb.append("|");
-            out.println(sb.toString());
+            out.println(IssuePrinter.toString(issue));
         }
     }
 
