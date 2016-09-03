@@ -14,9 +14,9 @@ import org.junit.Test;
 /**
  *
  */
-public class TaskBasedOnJsonQueryTest {
+public class IssuesBasedOnJsonQueryTest {
 
-    public TaskBasedOnJsonQueryTest() {
+    public IssuesBasedOnJsonQueryTest() {
     }
 
     @Before

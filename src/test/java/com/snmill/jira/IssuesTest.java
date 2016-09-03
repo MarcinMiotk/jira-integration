@@ -20,9 +20,9 @@ import org.springframework.web.util.UriComponentsBuilder;
 /**
  *
  */
-public class TasksTest {
+public class IssuesTest {
 
-    public TasksTest() {
+    public IssuesTest() {
     }
 
     @BeforeClass

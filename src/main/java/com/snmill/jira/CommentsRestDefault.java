@@ -13,11 +13,11 @@ import org.springframework.web.util.UriComponentsBuilder;
 /**
  *
  */
-public class CommentsRestDefault implements Comments {
+class CommentsRestDefault implements Comments {
 
     private final JiraApiConfiguration configuration;
 
-    public CommentsRestDefault(JiraApiConfiguration configuration) {
+    protected CommentsRestDefault(JiraApiConfiguration configuration) {
         this.configuration = configuration;
     }
 
@@ -27,16 +27,20 @@ public class CommentsRestDefault implements Comments {
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(configuration.getJiraApiUrl() + "issue/" + issueKey + "/comment");
         builder.queryParam("orderBy", "-updated");
         builder.queryParam("maxResults", "200");
-
         HttpEntity request = new HttpEntity<>(createAuthorizationHeaders(configuration.getUsername(), configuration.getPassword()));
         ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
-
         return new CommentsBasedOnJson(response.getBody()).size(issueKey);
     }
 
     @Override
     public List<Comment> comments(String issueKey) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        RestTemplate api = new RestTemplate();
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(configuration.getJiraApiUrl() + "issue/" + issueKey + "/comment");
+        builder.queryParam("orderBy", "-updated");
+        builder.queryParam("maxResults", "200");
+        HttpEntity request = new HttpEntity<>(createAuthorizationHeaders(configuration.getUsername(), configuration.getPassword()));
+        ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
+        return new CommentsBasedOnJson(response.getBody()).comments(issueKey);
     }
 
     HttpHeaders createAuthorizationHeaders(String username, String password) {

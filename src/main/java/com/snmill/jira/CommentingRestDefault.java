@@ -12,11 +12,11 @@ import org.springframework.web.util.UriComponentsBuilder;
 /**
  *
  */
-public class CommentingRestDefault implements Commenting {
+class CommentingRestDefault implements Commenting {
 
     private final JiraApiConfiguration configuration;
 
-    public CommentingRestDefault(JiraApiConfiguration configuration) {
+    protected CommentingRestDefault(JiraApiConfiguration configuration) {
         this.configuration = configuration;
     }
 

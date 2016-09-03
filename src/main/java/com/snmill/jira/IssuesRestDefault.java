@@ -13,11 +13,11 @@ import org.springframework.web.util.UriComponentsBuilder;
 /**
  *
  */
-public class IssuesRestDefault implements Issues {
+class IssuesRestDefault implements Issues {
 
     private final JiraApiConfiguration configuration;
 
-    public IssuesRestDefault(JiraApiConfiguration configuration) {
+    protected IssuesRestDefault(JiraApiConfiguration configuration) {
         this.configuration = configuration;
     }
 
@@ -30,13 +30,22 @@ public class IssuesRestDefault implements Issues {
         builder.queryParam("maxResults", "200");
         HttpEntity request = new HttpEntity<>(createAuthorizationHeaders(configuration.getUsername(), configuration.getPassword()));
         ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
-        Issues task = new IssuesBasedOnJsonQuery(response.getBody());
-        return task.count();
+        Issues issues = new IssuesBasedOnJsonQuery(response.getBody());
+        return issues.count();
     }
 
     @Override
     public List<Issue> issues() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
+        RestTemplate api = new RestTemplate();
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(configuration.getJiraApiUrl() + "search");
+        builder.queryParam("jql", jqlForTeamIssues());
+        builder.queryParam("fields", "id,key,summary,reporter,assignee,created,duedate,priority,status");
+        builder.queryParam("maxResults", "200");
+        HttpEntity request = new HttpEntity<>(createAuthorizationHeaders(configuration.getUsername(), configuration.getPassword()));
+        ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
+        Issues issues = new IssuesBasedOnJsonQuery(response.getBody());
+        return issues.issues();
     }
 
     HttpHeaders createAuthorizationHeaders(String username, String password) {

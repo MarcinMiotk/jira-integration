@@ -2,6 +2,8 @@ package com.snmill.jira;
 
 import static com.snmill.jira.JiraApiConfiguration.jira;
 import static java.lang.System.out;
+import java.util.List;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
@@ -53,4 +55,22 @@ public class FasadeDefaultTest {
         fasade.assign(issueKey, "mobr");
     }
 
+    @Test
+    public void listCommentsFirstElementHasAuthorMami() {
+        String issueKey = "HUMP-9";
+        List<Comment> comments = fasade.comments(issueKey);
+        assertEquals("mami", comments.get(0).getAuthor());
+
+        for (Comment comment : comments) {
+            out.println(CommentPrinter.toString(comment));
+        }
+    }
+
+    @Test
+    public void listIssues() {
+        List<Issue> issues = fasade.issues();
+        for (Issue issue : issues) {
+            out.println(IssuePrinter.toString(issue));
+        }
+    }
 }

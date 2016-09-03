@@ -10,11 +10,11 @@ import org.springframework.web.util.UriComponentsBuilder;
 /**
  *
  */
-public class AssigningRestDefault implements Assigning {
+class AssigningRestDefault implements Assigning {
 
     private final JiraApiConfiguration configuration;
 
-    public AssigningRestDefault(JiraApiConfiguration configuration) {
+    protected AssigningRestDefault(JiraApiConfiguration configuration) {
         this.configuration = configuration;
     }
 
