@@ -1,0 +1,57 @@
+{
+    "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+    "id": "189152",
+    "self": "https://jira.ailleron.com/jira/rest/api/2/issue/189152",
+    "key": "HUMP-9",
+    "fields": {
+        "summary": "Testowaczka",
+        "reporter": {
+            "self": "https://jira.ailleron.com/jira/rest/api/2/user?username=mami",
+            "name": "mami",
+            "emailAddress": "marcin.miotk@ailleron.com",
+            "avatarUrls": {
+                "16x16": "https://jira.ailleron.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                "24x24": "https://jira.ailleron.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                "32x32": "https://jira.ailleron.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                "48x48": "https://jira.ailleron.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+            },
+            "displayName": "Marcin Miotk",
+            "active": true
+        },
+        "status": {
+            "self": "https://jira.ailleron.com/jira/rest/api/2/status/1",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "https://jira.ailleron.com/jira/images/icons/statuses/open.png",
+            "name": "Open",
+            "id": "1",
+            "statusCategory": {
+                "self": "https://jira.ailleron.com/jira/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "New"
+            }
+        },
+        "created": "2016-09-03T07:36:17.252+0200",
+        "priority": {
+            "self": "https://jira.ailleron.com/jira/rest/api/2/priority/5",
+            "iconUrl": "https://jira.ailleron.com/jira/images/icons/priorities/trivial.png",
+            "name": "Trivial [6]",
+            "id": "5"
+        },
+        "duedate": null,
+        "assignee": {
+            "self": "https://jira.ailleron.com/jira/rest/api/2/user?username=mobr",
+            "name": "mobr",
+            "emailAddress": "mobr@softwaremind.pl",
+            "avatarUrls": {
+                "16x16": "https://jira.ailleron.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
+                "24x24": "https://jira.ailleron.com/jira/secure/useravatar?size=small&avatarId=10072",
+                "32x32": "https://jira.ailleron.com/jira/secure/useravatar?size=medium&avatarId=10072",
+                "48x48": "https://jira.ailleron.com/jira/secure/useravatar?avatarId=10072"
+            },
+            "displayName": "Monika Braun",
+            "active": true
+        }
+    }
+}

@@ -53,4 +53,9 @@ public class FasadeDefault implements Fasade {
         this.commenting.comment(issueKey, body);
     }
 
+    @Override
+    public Issue issue(String issueKey) {
+        return issues.issue(issueKey);
+    }
+
 }

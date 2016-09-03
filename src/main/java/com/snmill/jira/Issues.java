@@ -10,4 +10,6 @@ interface Issues {
     int count();
 
     List<Issue> issues();
+
+    Issue issue(String issueKey);
 }

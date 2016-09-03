@@ -19,4 +19,6 @@ public interface Fasade {
 
     List<Issue> issues();
 
+    Issue issue(String issueKey);
+
 }

@@ -73,4 +73,14 @@ public class FasadeDefaultTest {
             out.println(IssuePrinter.toString(issue));
         }
     }
+
+    @Test
+    public void issueHasValidData() {
+        String issueKey = "HUMP-9";
+        Issue issue = fasade.issue(issueKey);
+        assertEquals(189152, issue.getId());
+        assertEquals("HUMP-9", issue.getKey());
+        assertEquals("Testowaczka", issue.getSummary());
+    }
+
 }

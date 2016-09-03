@@ -41,17 +41,9 @@ public class CommentsTest {
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(jiraApiUrlPrefix + "issue/" + issueKey + "/comment");
         builder.queryParam("orderBy", "-updated");
         builder.queryParam("maxResults", "200");
-
         HttpEntity request = new HttpEntity<>(authorizationHeaders);
         ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
-
         out.println(response.getBody());
-
-//        Tasks task = new TaskBasedOnJsonQuery(response.getBody());
-//        for (Issue issue : task.issues()) {
-//            out.println(IssuePrinter.toString(issue));
-//        }
-//        out.println("SIZE=" + task.count());
     }
 
     @Test

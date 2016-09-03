@@ -90,6 +90,17 @@ public class IssuesTest {
         out.println("SIZE=" + task.count());
     }
 
+    @Test
+    public void issueSingleGet() {
+        String issueKey = "HUMP-9";
+        RestTemplate api = new RestTemplate();
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(jiraApiUrlPrefix + "issue/" + issueKey);
+        builder.queryParam("fields", "id,key,summary,reporter,assignee,created,duedate,priority,status");
+        HttpEntity request = new HttpEntity<>(authorizationHeaders);
+        ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
+        out.println(response.getBody());
+    }
+
     HttpHeaders createAuthorizationHeaders(String username, String password) {
         return new HttpHeaders() {
             {

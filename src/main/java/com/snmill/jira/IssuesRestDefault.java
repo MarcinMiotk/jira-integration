@@ -35,8 +35,18 @@ class IssuesRestDefault implements Issues {
     }
 
     @Override
-    public List<Issue> issues() {
+    public Issue issue(String issueKey) {
+        RestTemplate api = new RestTemplate();
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(configuration.getJiraApiUrl() + "issue/" + issueKey);
+        builder.queryParam("fields", "id,key,summary,reporter,assignee,created,duedate,priority,status");
+        HttpEntity request = new HttpEntity<>(createAuthorizationHeaders(configuration.getUsername(), configuration.getPassword()));
+        ResponseEntity<String> response = api.exchange(builder.build().toUri(), HttpMethod.GET, request, String.class);
+        Issues issues = new IssuesBasedOnJsonQuery(response.getBody());
+        return issues.issue(issueKey);
+    }
 
+    @Override
+    public List<Issue> issues() {
         RestTemplate api = new RestTemplate();
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(configuration.getJiraApiUrl() + "search");
         builder.queryParam("jql", jqlForTeamIssues());

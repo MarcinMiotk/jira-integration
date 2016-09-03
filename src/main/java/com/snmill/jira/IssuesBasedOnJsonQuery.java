@@ -113,4 +113,78 @@ class IssuesBasedOnJsonQuery implements Issues {
         }
     }
 
+    @Override
+    public Issue issue(String issueKey) {
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            JsonNode issue = mapper.readTree(json);
+
+            // this is duplication: todo: refactor it
+            return new Issue() {
+
+                @Override
+                public long getId() {
+                    return issue.get("id").asLong();
+                }
+
+                @Override
+                public String getKey() {
+                    return issue.get("key").asText();
+                }
+
+                @Override
+                public String getReporter() {
+                    return issue.get("fields").get("reporter").get("name").asText();
+                }
+
+                @Override
+                public String getAssignee() {
+                    return issue.get("fields").get("assignee").get("name").asText();
+                }
+
+                @Override
+                public String getStatus() {
+                    return issue.get("fields").get("status").get("name").asText();
+                }
+
+                @Override
+                public String getSummary() {
+                    return issue.get("fields").get("summary").asText();
+                }
+
+                @Override
+                public Date getCreated() {
+                    try {
+                        String asString = issue.get("fields").get("created").asText();
+                        //2016-08-30T13:59:25.000+0200
+                        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+                        return sdf.parse(asString);
+                    } catch (ParseException ex) {
+                        // todo: log it
+                        return null;
+                    }
+                }
+
+                @Override
+                public int getPriority() {
+                    return issue.get("fields").get("priority").get("id").asInt();
+                }
+
+                @Override
+                public Date getDueDate() {
+                    try {
+                        String asString = issue.get("fields").get("duedate").asText();
+                        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+                        return sdf.parse(asString);
+                    } catch (ParseException ex) {
+                        // todo: log it
+                        return null;
+                    }
+                }
+            };
+        } catch (IOException ex) {
+            throw new IllegalStateException("Wrong response");
+        }
+    }
+
 }
