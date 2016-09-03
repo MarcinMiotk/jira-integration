@@ -1,0 +1,1071 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 50,
+    "total": 19,
+    "issues": [{
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "188461",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/188461",
+            "key": "SUPTMPLHER-635",
+            "fields": {
+                "summary": "PBI4173 - ESR błędy 500",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mapo",
+                    "name": "mapo",
+                    "emailAddress": "ma.ko@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
+                    },
+                    "displayName": "Maja KoKo",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-08-30T13:59:25.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": "2016-09-25",
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "178243",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/178243",
+            "key": "SUPTMPLHER-489",
+            "fields": {
+                "summary": "INC000002191431 - AdapterESR2 - FaxAccConnector app not responding (value: 1), ESR",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=pioz",
+                    "name": "pioz",
+                    "emailAddress": "pio.ogo@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
+                    },
+                    "displayName": "Piotr Ogo",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-06-14T10:33:10.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "183850",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/183850",
+            "key": "SUPPLKVMS-170",
+            "fields": {
+                "summary": "CLONE - Humpback powinien odpowiadać 503 jeśli wystąpi wyjątek",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=grwz",
+                    "name": "grwz",
+                    "emailAddress": "grzegorz.woka@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=grwz&avatarId=23792",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=grwz&avatarId=23792",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=grwz&avatarId=23792",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=grwz&avatarId=23792"
+                    },
+                    "displayName": "Grzegorz Woka",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-07-27T14:52:05.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/3",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/major.png",
+                    "name": "Major [3]",
+                    "id": "3"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "167725",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/167725",
+            "key": "SUPPLKVMS-61",
+            "fields": {
+                "summary": "[opt] usuwanie ze schedulera zadań, które dotyczą zakończonych sesji",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-03-08T10:01:16.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "184160",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/184160",
+            "key": "SUPOV-32",
+            "fields": {
+                "summary": "Niepoprawna obsługa Cancel w połączeniach przychodzących",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=tocl",
+                    "name": "tocl",
+                    "emailAddress": "tomasz.czpkw@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
+                    },
+                    "displayName": "Tomasz Pczłak",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-07-29T15:40:51.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/6",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/arrow_up_blue.gif",
+                    "name": "Normal [4]",
+                    "id": "6"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "164533",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/164533",
+            "key": "SUPORMRF-3",
+            "fields": {
+                "summary": "Powolne działanie broker'ów przy niedostępności serwera w klastrze, task roboczy: EXSORAMRF-22",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=tocl",
+                    "name": "tocl",
+                    "emailAddress": "tomasz.czpkw@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
+                    },
+                    "displayName": "Tomasz Pczłak",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-02-09T09:39:38.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/1",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/blocker.png",
+                    "name": "Blocker [1]",
+                    "id": "1"
+                },
+                "duedate": "2016-05-25",
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "162453",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/162453",
+            "key": "SUPCYPPO-1",
+            "fields": {
+                "summary": "CLONE - USSD - Dialogic dialog identifiers capacity reached",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=arsi",
+                    "name": "arsi",
+                    "emailAddress": "artur.siebor@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
+                    },
+                    "displayName": "Artur Siębor",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-01-25T19:33:03.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/2",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/critical.png",
+                    "name": "Critical [2]",
+                    "id": "2"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "181292",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/181292",
+            "key": "SOR-444",
+            "fields": {
+                "summary": "ATP2 - wiszace wiadomosci",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=arsi",
+                    "name": "arsi",
+                    "emailAddress": "artur.siebor@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
+                    },
+                    "displayName": "Artur Siębor",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-07-06T18:36:50.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/1",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/blocker.png",
+                    "name": "Blocker [1]",
+                    "id": "1"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "188235",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/188235",
+            "key": "SI-3458",
+            "fields": {
+                "summary": "Stworzenie projektów w GitLab",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/10388",
+                    "description": "",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/status_generic.gif",
+                    "name": "Client Verification",
+                    "id": "10388",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                },
+                "created": "2016-08-27T08:07:46.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "187663",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/187663",
+            "key": "SI-3439",
+            "fields": {
+                "summary": "Projekt w GitLab",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/10388",
+                    "description": "",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/status_generic.gif",
+                    "name": "Client Verification",
+                    "id": "10388",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                },
+                "created": "2016-08-24T21:55:28.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "186081",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/186081",
+            "key": "SI-3385",
+            "fields": {
+                "summary": "Projekt w gitlab",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/10388",
+                    "description": "",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/status_generic.gif",
+                    "name": "Client Verification",
+                    "id": "10388",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "In Progress"
+                    }
+                },
+                "created": "2016-08-11T21:17:00.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "165712",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/165712",
+            "key": "NOVAU-27",
+            "fields": {
+                "summary": "[opt] Naprawa oraz optymalizacja vxml-interpreter-service",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-02-19T11:12:23.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/6",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/arrow_up_blue.gif",
+                    "name": "Normal [4]",
+                    "id": "6"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "168040",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/168040",
+            "key": "NOVAU-26",
+            "fields": {
+                "summary": "[opt] Continuous Deployment w Humpack",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-03-10T14:34:37.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/6",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/arrow_up_blue.gif",
+                    "name": "Normal [4]",
+                    "id": "6"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "169656",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/169656",
+            "key": "HUMP-6",
+            "fields": {
+                "summary": "[opt] Zrobić priorytetyzację pakietów SIP, które są obsługiwane przez pulę połączęń",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/4",
+                    "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/reopened.png",
+                    "name": "Reopened",
+                    "id": "4",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-03-24T10:55:00.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "169649",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/169649",
+            "key": "HUMP-5",
+            "fields": {
+                "summary": "[opt] Błędy parsowania SDP w signal serwerze przy ruchu 250 newcalls / sec",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/4",
+                    "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/reopened.png",
+                    "name": "Reopened",
+                    "id": "4",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-03-24T10:24:14.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "169647",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/169647",
+            "key": "HUMP-4",
+            "fields": {
+                "summary": "[opt] Błędy strumieni w media serwerze przy ruchu 250 newcalls / sec",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/4",
+                    "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/reopened.png",
+                    "name": "Reopened",
+                    "id": "4",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-03-24T10:22:52.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "167546",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/167546",
+            "key": "HUMP-3",
+            "fields": {
+                "summary": "[opt] Akcept na prace naprawcze dot. synchronicznych wywołań wykonywanych przez VXML-INTERPRETER",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/4",
+                    "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/reopened.png",
+                    "name": "Reopened",
+                    "id": "4",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-03-04T17:16:45.000+0100",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/5",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/trivial.png",
+                    "name": "Trivial [6]",
+                    "id": "5"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "182435",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/182435",
+            "key": "EXBROAD-286",
+            "fields": {
+                "summary": "[HB] Urwane nagranie - tym razem nie jest to wykrywanie braku ludzkiej mowy",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=grwz",
+                    "name": "grwz",
+                    "emailAddress": "grzegorz.woka@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=grwz&avatarId=23792",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=grwz&avatarId=23792",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=grwz&avatarId=23792",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=grwz&avatarId=23792"
+                    },
+                    "displayName": "Grzegorz Woka",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-07-15T08:50:54.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/1",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/blocker.png",
+                    "name": "Blocker [1]",
+                    "id": "1"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }, {
+            "expand": "editmeta,renderedFields,transitions,changelog,operations",
+            "id": "186099",
+            "self": "https://jira.snmill.com/jira/rest/api/2/issue/186099",
+            "key": "CROVMA-2",
+            "fields": {
+                "summary": "Analiza wyskalowania MWI na 2,5 M użytkowników",
+                "reporter": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=luok",
+                    "name": "luok",
+                    "emailAddress": "lukasz.okarmus@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&avatarId=10072",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&avatarId=10072",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&avatarId=10072",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?avatarId=10072"
+                    },
+                    "displayName": "Łukasz Okarmus",
+                    "active": true
+                },
+                "status": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/status/1",
+                    "description": "The issue is open and ready for the assignee to start work on it.",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/statuses/open.png",
+                    "name": "Open",
+                    "id": "1",
+                    "statusCategory": {
+                        "self": "https://jira.snmill.com/jira/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "New"
+                    }
+                },
+                "created": "2016-08-12T09:54:06.000+0200",
+                "priority": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/priority/1",
+                    "iconUrl": "https://jira.snmill.com/jira/images/icons/priorities/blocker.png",
+                    "name": "Blocker [1]",
+                    "id": "1"
+                },
+                "duedate": null,
+                "assignee": {
+                    "self": "https://jira.snmill.com/jira/rest/api/2/user?username=mami",
+                    "name": "mami",
+                    "emailAddress": "marcin.miotk@snmill.com",
+                    "avatarUrls": {
+                        "16x16": "https://jira.snmill.com/jira/secure/useravatar?size=xsmall&ownerId=mami&avatarId=21958",
+                        "24x24": "https://jira.snmill.com/jira/secure/useravatar?size=small&ownerId=mami&avatarId=21958",
+                        "32x32": "https://jira.snmill.com/jira/secure/useravatar?size=medium&ownerId=mami&avatarId=21958",
+                        "48x48": "https://jira.snmill.com/jira/secure/useravatar?ownerId=mami&avatarId=21958"
+                    },
+                    "displayName": "Marcin Miotk",
+                    "active": true
+                }
+            }
+        }]
+}
