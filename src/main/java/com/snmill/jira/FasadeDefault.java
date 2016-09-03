@@ -10,11 +10,13 @@ public class FasadeDefault implements Fasade {
     private final JiraApiConfiguration configuration;
 
     private final Issues issues;
+    private final Comments comments;
 
     public FasadeDefault(JiraApiConfiguration configuration) {
         this.configuration = configuration;
 
         this.issues = new IssuesRestDefault(configuration);
+        this.comments = new CommentsRestDefault(configuration);
     }
 
     @Override
@@ -29,7 +31,7 @@ public class FasadeDefault implements Fasade {
 
     @Override
     public int commentsCount(String issueKey) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return comments.size(issueKey);
     }
 
     @Override
@@ -39,6 +41,11 @@ public class FasadeDefault implements Fasade {
 
     @Override
     public List<Issue> issues() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void comment(String issueKey, String body) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

@@ -9,6 +9,8 @@ public interface Fasade {
 
     void assign(String issueKey, String assigneee);
 
+    void comment(String issueKey, String body);
+
     List<Comment> comments(String issueKey);
 
     int commentsCount(String issueKey);
