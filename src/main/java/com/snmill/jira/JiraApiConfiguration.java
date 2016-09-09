@@ -8,6 +8,7 @@ public class JiraApiConfiguration {
     private String jiraApiUrl;
     private String username;
     private String password;
+    private String jql;
 
     public static Builder jira() {
         return new Builder();
@@ -18,6 +19,7 @@ public class JiraApiConfiguration {
         private String jiraApiUrl;
         private String username;
         private String password;
+        private String jql;
 
         public Builder() {
         }
@@ -42,18 +44,24 @@ public class JiraApiConfiguration {
             return this;
         }
 
+        public Builder jql(String jql) {
+            this.jql = jql;
+            return this;
+        }
+
         public JiraApiConfiguration configure() {
-            return new JiraApiConfiguration(jiraApiUrl, username, password);
+            return new JiraApiConfiguration(jiraApiUrl, username, password, jql);
         }
     }
 
     private JiraApiConfiguration() {
     }
 
-    private JiraApiConfiguration(String jiraApiUrl, String username, String password) {
+    private JiraApiConfiguration(String jiraApiUrl, String username, String password, String jql) {
         this.jiraApiUrl = jiraApiUrl;
         this.username = username;
         this.password = password;
+        this.jql = jql;
     }
 
     protected String getJiraApiUrl() {
@@ -66,6 +74,10 @@ public class JiraApiConfiguration {
 
     protected String getPassword() {
         return password;
+    }
+
+    protected String getJql() {
+        return jql;
     }
 
 }

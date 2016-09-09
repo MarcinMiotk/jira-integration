@@ -70,8 +70,7 @@ class IssuesRestDefault implements Issues {
     }
 
     String jqlForTeamIssues() {
-        String jql = "(assignee=mami OR assignee=ankr OR assignee=mapo OR assignee=kasw OR assignee=mamk) AND (status='OPEN' OR status='CLIENT VERIFICATION' OR status='REOPENED' OR status='IN PROGRESS') order by created";
-        return jql;
+        return configuration.getJql();
     }
 
 }

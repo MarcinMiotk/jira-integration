@@ -113,7 +113,7 @@ public class IssuesTest {
     }
 
     String jqlForTeamIssues() {
-        String jql = "(assignee=mami OR assignee=ankr OR assignee=mapo OR assignee=kasw OR assignee=mamk) AND (status='OPEN' OR status='CLIENT VERIFICATION' OR status='REOPENED' OR status='IN PROGRESS') order by created";
+        String jql = "(assignee=mami OR assignee=ankr OR assignee=mapo OR assignee=kasw OR assignee=mamk) AND (status='OPEN' OR status='CLIENT VERIFICATION' OR status='REOPENED' OR status='IN PROGRESS' OR status='HOLD') order by created";
         return jql;
     }
 
